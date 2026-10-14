@@ -1,0 +1,83 @@
+
+#bl {
+    width: 1000px;
+    margin: auto;
+    padding: 0;
+}
+
+#kepala {
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(207, 178, 14);
+    color: white;
+    text-align: center;
+    line-height: 250px;
+}
+
+.kepala {
+    font-size: 100px;
+    font-family: Arial;
+}
+
+#menu {
+    height: 50px;
+    background-color: #0c0c0c;
+    margin-top: 5px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    line-height: 50px;
+}
+
+#menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#menu ul li:hover {
+    background-color: orangered;
+}
+
+#badan {
+    width: 1000px;
+    min-height: 315px;
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+#kiri {
+    box-sizing: border-box;
+    width: 740px;
+    min-height: 315px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#kanan {
+    box-sizing: border-box;
+    width: 255px;
+    min-height: 315px;
+    background-color: orange;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#kaki {
+    text-align: center;
+    width: 100%;
+    min-height: 25px;
+    margin-top: 5px;
+    background-color: gold;
+}
